@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::name('index')->get('/', function () {
     return view('pages.landing-pages.index');
 });
+
+Route::get('/about-us', function () {return view('pages.landing-pages.aboutus');})->name('pages.landing-pages.aboutus');
+Route::get('/service', function () {return view('pages.landing-pages.service');})->name('pages.landing-pages.service');
+Route::get('/gallery', function () {return view('pages.landing-pages.gallery');})->name('pages.landing-pages.gallery');

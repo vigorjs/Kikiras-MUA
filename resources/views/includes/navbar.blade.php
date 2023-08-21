@@ -15,69 +15,31 @@
                             <nav class="main-menu menu-style1 d-none d-lg-block">
                                 <ul>
                                     <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="match.html">Service</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="blog.html">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog One</a></li>
-                                            <li><a href="blog-2.html">Blog Two</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children mega-menu-wrap">
-                                        <a href="#">Pages</a>
-                                        <ul class="mega-menu">
-                                            <li><a href="shop.html">Pagelist 1</a>
-                                                <ul>
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="blog.html">Blog One</a></li>
-                                                    <li><a href="blog-2.html">Blog Two</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 2</a>
-                                                <ul>
-                                                    <li><a href="appointment.html">Appointment</a></li>
-                                                    <li><a href="price-plan.html">Price Plan</a></li>
-                                                    <li><a href="service.html">Services</a></li>
-                                                    <li><a href="service-details.html">Service Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 3</a>
-                                                <ul>
-                                                    <li><a href="gallery.html">Portfolio</a></li>
-                                                    <li><a href="gallery-details.html">Portfolio Details</a></li>
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pagelist 4</a>
-                                                <ul>
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="contact.html">Contact Us</a></li>
-                                                    <li><a href="error.html">Error Page</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                        <x-nav-link :href="route('index')" :active="request()->routeIs('index')">
+                                            {{ __('Home') }}
+                                        </x-nav-link>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact Us</a>
+                                        <x-nav-link :href="route('pages.landing-pages.aboutus')" :active="request()->routeIs('pages.landing-pages.aboutus')">
+                                            {{ __('About Us') }}
+                                        </x-nav-link>
+                                    </li>
+                                    <li>
+                                        <x-nav-link :href="route('pages.landing-pages.service')" :active="request()->routeIs('pages.landing-pages.service')">
+                                            {{ __('Service') }}
+                                        </x-nav-link>
+                                    </li>
+                                    <li>
+                                        <x-nav-link :href="route('pages.landing-pages.gallery')" :active="request()->routeIs('pages.landing-pages.gallery')">
+                                            {{ __('Gallery') }}
+                                        </x-nav-link>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="col-auto">
                             <div class="header-icons">
-                                <a href="contact.html" class="vs-btn style2 d-none d-xl-inline-block">Book</a>
+                                <a href="contact.html" class="vs-btn style2 d-none d-xl-inline-block">{{__('Contact Us')}}</a>
                                 <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i class="fal fa-bars"></i></button>
                             </div>
                         </div>

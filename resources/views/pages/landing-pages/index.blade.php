@@ -15,13 +15,13 @@
                 <div>
                     <div class="hero-inner">
                         <div class="hero-img">
-                            <img src="{{asset('template/assets/img/hero/hero-1-1.png')}}" alt="hero">
+                            <img src="{{asset('template/assets/img/beauty/beauty1.png')}}" alt="hero">
                             <div class="hero-ripple"><i class="ripple"></i><i class="ripple"></i></div>
                         </div>
                         <div class="hero-content">
                             <div class="hero-flower"><img src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
-                            <span class="hero-subtitle">skincare inspires</span>
-                            <h1 class="hero-title">Spa Specialty</h1>
+                            <span class="hero-subtitle">beauty inspires</span>
+                            <h1 class="hero-title">Flawless MUA</h1>
                             <a href="appointment.html" class="vs-btn style3">Appointment</a>
                         </div>
                     </div>
@@ -29,13 +29,13 @@
                 <div>
                     <div class="hero-inner">
                         <div class="hero-img">
-                            <img src="{{asset('template/assets/img/hero/hero-1-2.png')}}" alt="hero">
+                            <img src="{{asset('template/assets/img/beauty/beauty2.png')}}" alt="hero">
                             <div class="hero-ripple"><i class="ripple"></i><i class="ripple"></i></div>
                         </div>
                         <div class="hero-content">
                             <div class="hero-flower"><img src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
-                            <span class="hero-subtitle">skincare inspires</span>
-                            <h1 class="hero-title">Skin Refresh</h1>
+                            <span class="hero-subtitle">beauty inspires</span>
+                            <h2 class="hero-title">Skin Refresh</h2>
                             <a href="appointment.html" class="vs-btn style3">Appointment</a>
                         </div>
                     </div>
@@ -43,13 +43,13 @@
                 <div>
                     <div class="hero-inner">
                         <div class="hero-img">
-                            <img src="{{asset('template/assets/img/hero/hero-1-3.png')}}" alt="hero">
+                            <img src="{{asset('template/assets/img/beauty/beauty5.png')}}" alt="hero">
                             <div class="hero-ripple"><i class="ripple"></i><i class="ripple"></i></div>
                         </div>
                         <div class="hero-content">
                             <div class="hero-flower"><img src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
-                            <span class="hero-subtitle">skincare inspires</span>
-                            <h1 class="hero-title">Body Relax</h1>
+                            <span class="hero-subtitle">beauty inspires</span>
+                            <h2 class="hero-title">Weedings</h2>
                             <a href="appointment.html" class="vs-btn style3">Appointment</a>
                         </div>
                     </div>
@@ -67,8 +67,8 @@
             <div class="shape-mockup jump d-none d-lg-block" data-top="-3%" data-right="4%"><img src="{{asset('template/assets/img/hero/hero-leaf-3.png')}}" alt="leaf"></div>
             <div class="container">
                 <div class="title-area text-center">
-                    <span class="sec-subtitle">skincare by andfaison</span>
-                    <h2 class="sec-title">Facials & Body Treatments</h2>
+                    <span class="sec-subtitle">make up by kikiraa</span>
+                    <h2 class="sec-title">Flawless & Fresh Makeups</h2>
                     <div class="sec-shape"><img src="{{asset('template/assets/img/shape/sec-shape-1.png')}}" alt="shape"></div>
                 </div>
                 <div class="row vs-carousel has-slide-shadow" data-slide-show="5" data-ml-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2">
@@ -87,25 +87,19 @@
                     <div class="col-xl-3">
                         <div class="category-style1">
                             <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-3.png')}}" alt="categoryicon"></div>
-                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">MADE SUSTAINABLY</a></h3>
+                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">Long Lasting</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="category-style1">
                             <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-4.png')}}" alt="categoryicon"></div>
-                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">PARABEN FREE</a></h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="category-style1">
-                            <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-5.png')}}" alt="categoryicon"></div>
-                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">PARABEN FREE</a></h3>
+                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">Quality Equipment</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="category-style1">
                             <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-6.png')}}" alt="categoryicon"></div>
-                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">hair Towel</a></h3>
+                            <h3 class="category-name"><a href="service-details.html" class="text-inherit">Skincares</a></h3>
                         </div>
                     </div>
                 </div>
@@ -124,30 +118,30 @@
                 <div class="row gx-xl-0">
                     <div class="col-lg-6 col-xl-7 mb-40 mb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="img-box1">
-                            <img src="{{asset('template/assets/img/about/about-1-1.png')}}" alt="about">
+                            <img src="{{asset('template/assets/img/beauty/about1.jpg')}}" alt="about">
                             <div class="img-1 jump-reverse"><img src="{{asset('template/assets/img/shape/leaf-1-5.png')}}" alt=""></div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-5 align-self-center wow fadeInUp" data-wow-delay="0.3s">
-                        <span class="sec-subtitle">Experience Wellnez <span class="sec-subtext">25 Years</span></span>
-                        <h2 class="sec-title">Body Treatments</h2>
+                        <span class="sec-subtitle">Experience Wellness <span class="sec-subtext">+5 Years</span></span>
+                        <h2 class="sec-title">Make up Treatments - Kikiraa</h2>
                         <div class="media-style1">
                             <div class="circle-btn style3">
                                 <a href="about.html" class="btn-icon"><i class="far fa-arrow-right"></i></a>
                                 <div class="btn-text">
                                     <svg viewBox="0 0 150 150">
                                         <text>
-                                            <textPath href="#textPath">how to make your makeup last all day</textPath>
+                                            <textPath href="#textPath">Temukan Lebih Banyak</textPath>
                                         </text>
                                     </svg>
                                 </div>
                             </div>
                             <div class="media-body">
-                                <p class="media-text">We think your skin should look and refshed matter your lifestyle Wellnez.</p>
+                                <p class="media-text">Kami berkomitmen untuk membuat Anda tampil memukau dalam setiap kesempatan.</p>
                             </div>
                         </div>
-                        <p class="about-text">There are many variations of passages of Lofrem the Ipsum availaasble, but the majority have suffered alteration in some form injected.</p>
-                        <a href="about.html" class="vs-btn style3">View More</a>
+                        <p class="about-text">Kami menawarkan beragam pilihan make up untuk acara spesial Anda. Dengan pengalaman kami yang luas, kami dapat membuat tampilan yang sesuai dengan kepribadian dan keinginan Anda.</p>
+                        <a href="about.html" class="vs-btn style3">Our Service</a>
                     </div>
                 </div>
             </div>
