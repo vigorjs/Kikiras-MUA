@@ -8,7 +8,7 @@
                     <div class="row justify-content-between align-items-center gx-60">
                         <div class="col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="{{asset('template/assets/img/logo.svg')}}" alt="logo"></a>
+                                <a href="{{route('index')}}"><img src="{{asset('template/assets/img/logokikira.svg')}}" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-auto">

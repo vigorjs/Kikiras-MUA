@@ -5,7 +5,7 @@
     <div class="vs-menu-area text-center">
         <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.html"><img src="{{asset('template/assets/img/logo.svg')}}" alt="Wellnez"></a>
+            <a href="{{route('index')}}"><img src="{{asset('template/assets/img/logokikira2.svg')}}" alt="logo"></a>
         </div>
         <div class="vs-mobile-menu">
             <ul>

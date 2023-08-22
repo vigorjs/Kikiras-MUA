@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::name('index')->get('/', function () {
-    return view('pages.landing-pages.index');
-});
+Route::name('index')->get('/', [IndexController::class, 'index']);
 
 Route::get('/about-us', function () {return view('pages.landing-pages.aboutus');})->name('pages.landing-pages.aboutus');
 Route::get('/service', function () {return view('pages.landing-pages.service');})->name('pages.landing-pages.service');

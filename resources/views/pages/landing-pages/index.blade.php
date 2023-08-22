@@ -147,4 +147,85 @@
             </div>
         </section>
     </div>
+
+    <!--==============================
+    Gallery Area
+    ==============================-->
+    <section class="outer-wrap2 space-extra-bottom mb-10">
+        <div class="container-lg">
+            <div class="row gy-3 mb-5 align-items-end">
+                <div class="col-sm-auto">
+                    <h2 class="sec-title mb-n2">#instagram</h2>
+                </div>
+                <div class="col-sm">
+                    <div class="sec-line pb-1"></div>
+                </div>
+                <div class="col-sm-auto d-none d-lg-block">
+                    <a href="https://www.instagram.com/makeupbykikiraa/" target="_blank" class="user-id-link">@makeupbykikiraa</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="row gx-60 gy-gx justify-content-between">
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="gallery-style1 mega-hover ">
+                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-1.jpg')}}" alt="gallery"></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="gallery-style1 mega-hover ">
+                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-2.jpg')}}" alt="gallery"></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg">
+                    <div class="gallery-style1 mega-hover ">
+                        <div class="gallery-img img-rounded"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-3.jpg')}}" alt="gallery"></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg">
+                    <div class="gallery-style1 mega-hover ">
+                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-4.jpg')}}" alt="gallery"></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg">
+                    <div class="gallery-style1 mega-hover ">
+                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-5.jpg')}}" alt="gallery"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==============================
+    Brand Partners
+    ==============================-->
+        <div class="bg-light-2 space-extra shape-mockup-wrap">
+            <div class="shape-mockup jump-reverse-img d-none d-xl-block" data-left="2%" data-top="10%"><img src="{{asset('template/assets/img/shape/b-s-1-3.png')}}" alt="shape"></div>
+            <div class="shape-mockup jump-img d-none d-xl-block" data-right="2%" data-bottom="8%"><img src="{{asset('template/assets/img/shape/b-s-1-4.png')}}" alt="shape"></div>
+            <div class="container">
+                <div class="row vs-carousel text-center" data-slide-show="6" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="2" data-xs-slide-show="2">
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-1.png')}}" alt="brand">
+                    </div>
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-2.png')}}" alt="brand">
+                    </div>
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-3.png')}}" alt="brand">
+                    </div>
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-4.png')}}" alt="brand">
+                    </div>
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-5.png')}}" alt="brand">
+                    </div>
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-6.png')}}" alt="brand">
+                    </div>
+                    <div class="col-auto">
+                        <img src="{{asset('template/assets/img/brand/b-1-3.png')}}" alt="brand">
+                    </div>
+                </div>
+            </div>
+        </div>
 @endsection
