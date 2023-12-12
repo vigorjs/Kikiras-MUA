@@ -7,19 +7,19 @@
     Hero Area
     ==============================-->
     <section class="hero-layout1  ">
-        <div class="hero-shape-1 jump-reverse" data-top="14%" data-right="42%"><img src="{{asset('template/assets/img/hero/hero-leaf-1.png')}}" alt="hero"></div>
-        <div class="hero-shape-2 rotate-img" data-top="13%" data-right="10%"><img src="{{asset('template/assets/img/hero/hero-flower-small.png')}}" alt="hero"></div>
-        <div class="hero-shape-3 jump-img" data-bottom="29%" data-right="0%"><img src="{{asset('template/assets/img/hero/hero-leaf-2.png')}}" alt="hero"></div>
+        <div class="hero-shape-1 jump-reverse" data-top="14%" data-right="42%"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-leaf-1.png')}}" alt="hero"></div>
+        <div class="hero-shape-2 rotate-img" data-top="13%" data-right="10%"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-flower-small.png')}}" alt="hero"></div>
+        <div class="hero-shape-3 jump-img" data-bottom="29%" data-right="0%"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-leaf-2.png')}}" alt="hero"></div>
         <div class="hero-mask" data-mask-src="{{asset('template/assets/img/hero/hero-mask-bg-1.png')}}">
             <div class="vs-carousel" data-slide-show="1" data-fade="true">
                 <div>
                     <div class="hero-inner">
                         <div class="hero-img">
-                            <img src="{{asset('template/assets/img/beauty/beauty1.png')}}" alt="hero">
+                            <img loading="lazy" src="{{asset('template/assets/img/beauty/beauty1.png')}}" alt="hero">
                             <div class="hero-ripple"><i class="ripple"></i><i class="ripple"></i></div>
                         </div>
                         <div class="hero-content">
-                            <div class="hero-flower"><img src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
+                            <div class="hero-flower"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
                             <span class="hero-subtitle">beauty inspires</span>
                             <h1 class="hero-title">Flawless MUA</h1>
                             <a href="appointment.html" class="vs-btn style3">Appointment</a>
@@ -29,11 +29,11 @@
                 <div>
                     <div class="hero-inner">
                         <div class="hero-img">
-                            <img src="{{asset('template/assets/img/beauty/beauty2.png')}}" alt="hero">
+                            <img loading="lazy" src="{{asset('template/assets/img/beauty/beauty2.png')}}" alt="hero">
                             <div class="hero-ripple"><i class="ripple"></i><i class="ripple"></i></div>
                         </div>
                         <div class="hero-content">
-                            <div class="hero-flower"><img src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
+                            <div class="hero-flower"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
                             <span class="hero-subtitle">beauty inspires</span>
                             <h2 class="hero-title">Skin Refresh</h2>
                             <a href="appointment.html" class="vs-btn style3">Appointment</a>
@@ -43,11 +43,11 @@
                 <div>
                     <div class="hero-inner">
                         <div class="hero-img">
-                            <img src="{{asset('template/assets/img/beauty/beauty5.png')}}" alt="hero">
+                            <img loading="lazy" src="{{asset('template/assets/img/beauty/beauty5.png')}}" alt="hero">
                             <div class="hero-ripple"><i class="ripple"></i><i class="ripple"></i></div>
                         </div>
                         <div class="hero-content">
-                            <div class="hero-flower"><img src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
+                            <div class="hero-flower"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-flower.png')}}" alt="hero" class="jump"></div>
                             <span class="hero-subtitle">beauty inspires</span>
                             <h2 class="hero-title">Weedings</h2>
                             <a href="appointment.html" class="vs-btn style3">Appointment</a>
@@ -64,41 +64,41 @@
         Category Area
         ==============================-->
         <section class="space-top">
-            <div class="shape-mockup jump d-none d-lg-block" data-top="-3%" data-right="4%"><img src="{{asset('template/assets/img/hero/hero-leaf-3.png')}}" alt="leaf"></div>
+            <div class="shape-mockup jump d-none d-lg-block" data-top="-3%" data-right="4%"><img loading="lazy" src="{{asset('template/assets/img/hero/hero-leaf-3.png')}}" alt="leaf"></div>
             <div class="container">
                 <div class="title-area text-center">
                     <span class="sec-subtitle">make up by kikiraa</span>
                     <h2 class="sec-title">Flawless & Fresh Makeups</h2>
-                    <div class="sec-shape"><img src="{{asset('template/assets/img/shape/sec-shape-1.png')}}" alt="shape"></div>
+                    <div class="sec-shape"><img loading="lazy" src="{{asset('template/assets/img/shape/sec-shape-1.png')}}" alt="shape"></div>
                 </div>
                 <div class="row vs-carousel has-slide-shadow" data-slide-show="5" data-ml-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2">
                     <div class="col-xl-3">
                         <div class="category-style1">
-                            <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-1.png')}}" alt="categoryicon"></div>
+                            <div class="category-icon"><img loading="lazy" src="{{asset('template/assets/img/icon/cat-1-1.png')}}" alt="categoryicon"></div>
                             <h3 class="category-name"><a href="service-details.html" class="text-inherit">clean ingredient</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="category-style1">
-                            <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-2.png')}}" alt="categoryicon"></div>
+                            <div class="category-icon"><img loading="lazy" src="{{asset('template/assets/img/icon/cat-1-2.png')}}" alt="categoryicon"></div>
                             <h3 class="category-name"><a href="service-details.html" class="text-inherit">ANCIENT FORMULAS</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="category-style1">
-                            <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-3.png')}}" alt="categoryicon"></div>
+                            <div class="category-icon"><img loading="lazy" src="{{asset('template/assets/img/icon/cat-1-3.png')}}" alt="categoryicon"></div>
                             <h3 class="category-name"><a href="service-details.html" class="text-inherit">Long Lasting</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="category-style1">
-                            <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-4.png')}}" alt="categoryicon"></div>
+                            <div class="category-icon"><img loading="lazy" src="{{asset('template/assets/img/icon/cat-1-4.png')}}" alt="categoryicon"></div>
                             <h3 class="category-name"><a href="service-details.html" class="text-inherit">Quality Equipment</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3">
                         <div class="category-style1">
-                            <div class="category-icon"><img src="{{asset('template/assets/img/icon/cat-1-6.png')}}" alt="categoryicon"></div>
+                            <div class="category-icon"><img loading="lazy" src="{{asset('template/assets/img/icon/cat-1-6.png')}}" alt="categoryicon"></div>
                             <h3 class="category-name"><a href="service-details.html" class="text-inherit">Skincares</a></h3>
                         </div>
                     </div>
@@ -118,8 +118,8 @@
                 <div class="row gx-xl-0">
                     <div class="col-lg-6 col-xl-7 mb-40 mb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="img-box1">
-                            <img src="{{asset('template/assets/img/beauty/about1.jpg')}}" alt="about">
-                            <div class="img-1 jump-reverse"><img src="{{asset('template/assets/img/shape/leaf-1-5.png')}}" alt=""></div>
+                            <img loading="lazy" src="{{asset('template/assets/img/beauty/about1.jpg')}}" alt="about">
+                            <div class="img-1 jump-reverse"><img loading="lazy" src="{{asset('template/assets/img/shape/leaf-1-5.png')}}" alt=""></div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-5 align-self-center wow fadeInUp" data-wow-delay="0.3s">
@@ -167,31 +167,26 @@
         </div>
         <div class="container-fluid px-0 wow fadeInUp" data-wow-delay="0.2s">
             <div class="row gx-60 gy-gx justify-content-between">
-                <div class="col-6 col-md-4 col-lg">
-                    <div class="gallery-style1 mega-hover ">
-                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-1.jpg')}}" alt="gallery"></a></div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg">
-                    <div class="gallery-style1 mega-hover ">
-                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-2.jpg')}}" alt="gallery"></a></div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg">
-                    <div class="gallery-style1 mega-hover ">
-                        <div class="gallery-img img-rounded"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-3.jpg')}}" alt="gallery"></a></div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg">
-                    <div class="gallery-style1 mega-hover ">
-                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-4.jpg')}}" alt="gallery"></a></div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg">
-                    <div class="gallery-style1 mega-hover ">
-                        <div class="gallery-img"><a href="gallery-details.html"><img src="{{asset('template/assets/img/gallery/gal-2-5.jpg')}}" alt="gallery"></a></div>
-                    </div>
-                </div>
+                @foreach ($profile as $profile)
+                    <?php
+                        $media_url = $profile->url;
+                        $caption = $profile->caption;
+                        $image_info = @getimagesize($media_url); // Suppress error if URL is not an image
+                        $width = $image_info[0] ?? 0; // Get image width
+                        $height = $image_info[1] ?? 0; // Get image height
+                        if ($height === 0) {
+                            continue; // Skip images with zero height
+                        }
+                        $aspect_ratio = $width / $height;
+                    ?>
+                    @if ($loop->index < 5)
+                        <div class="{{ ($aspect_ratio <= 1.1 && $aspect_ratio >= 0.9) ? 'col-6 col-md-4 col-lg' : 'col-md-4 col-lg' }}">
+                            <div class="gallery-style1 mega-hover ">
+                                <div class="{{ ($aspect_ratio <= 1.1 && $aspect_ratio >= 0.9) ? 'gallery-img' : 'gallery-img img-rounded' }}"><a href="gallery-details.html"><img loading="lazy" loading="lazy" src="{{url($media_url)}}" alt="{{$caption}}"></a></div>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
             </div>
         </div>
     </section>
@@ -200,30 +195,30 @@
     Brand Partners
     ==============================-->
         <div class="bg-light-2 space-extra shape-mockup-wrap">
-            <div class="shape-mockup jump-reverse-img d-none d-xl-block" data-left="2%" data-top="10%"><img src="{{asset('template/assets/img/shape/b-s-1-3.png')}}" alt="shape"></div>
-            <div class="shape-mockup jump-img d-none d-xl-block" data-right="2%" data-bottom="8%"><img src="{{asset('template/assets/img/shape/b-s-1-4.png')}}" alt="shape"></div>
+            <div class="shape-mockup jump-reverse-img d-none d-xl-block" data-left="2%" data-top="10%"><img loading="lazy" src="{{asset('template/assets/img/shape/b-s-1-3.png')}}" alt="shape"></div>
+            <div class="shape-mockup jump-img d-none d-xl-block" data-right="2%" data-bottom="8%"><img loading="lazy" src="{{asset('template/assets/img/shape/b-s-1-4.png')}}" alt="shape"></div>
             <div class="container">
                 <div class="row vs-carousel text-center" data-slide-show="6" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="2" data-xs-slide-show="2">
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-1.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-1.png')}}" alt="brand">
                     </div>
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-2.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-2.png')}}" alt="brand">
                     </div>
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-3.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-3.png')}}" alt="brand">
                     </div>
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-4.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-4.png')}}" alt="brand">
                     </div>
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-5.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-5.png')}}" alt="brand">
                     </div>
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-6.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-6.png')}}" alt="brand">
                     </div>
                     <div class="col-auto">
-                        <img src="{{asset('template/assets/img/brand/b-1-3.png')}}" alt="brand">
+                        <img loading="lazy" src="{{asset('template/assets/img/brand/b-1-3.png')}}" alt="brand">
                     </div>
                 </div>
             </div>

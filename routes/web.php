@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::name('index')->get('/', [IndexController::class, 'index']);
 
-Route::get('/about-us', function () {return view('pages.landing-pages.aboutus');})->name('pages.landing-pages.aboutus');
+Route::name('pages.landing-pages.aboutus')->get('/aboutus', [IndexController::class, 'aboutus']);
 Route::get('/service', function () {return view('pages.landing-pages.service');})->name('pages.landing-pages.service');
-Route::get('/gallery', function () {return view('pages.landing-pages.gallery');})->name('pages.landing-pages.gallery');
+Route::name('pages.landing-pages.gallery')->get('/gallery', [IndexController::class, 'gallery']);
