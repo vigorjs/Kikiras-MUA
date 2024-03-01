@@ -23,5 +23,13 @@
             "dest": "/api/index.php"
         }
     ],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://makeupbykikiraa.vercel.app",
+        "CACHE_DRIVER": "array",
+        "SESSION_DRIVER": "cookie",
+        "FILESYSTEM_DRIVER": "public"
+    },
     "outputDirectory": "public"
 }
