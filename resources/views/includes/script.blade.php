@@ -2,7 +2,7 @@
         All Js File
     ============================== -->
     <!-- Jquery -->
-    <script src="{{asset('template/assets/js/vendor/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{asset('template/assets/js/jquery-3.6.0.min.js')}}"></script>
     <!-- jQuery UI -->
     <script src="{{asset('template/assets/js/jquery-ui.min.js')}}"></script>
     <!-- Slick Slider -->
