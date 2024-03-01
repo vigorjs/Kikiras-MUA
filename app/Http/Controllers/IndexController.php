@@ -18,7 +18,7 @@ class IndexController extends Controller
             $profile = Cache::get('cached_instagram_feed');
         } else {
             // Jika belum di-cache, ambil dari API Instagram dan simpan ke dalam cache
-            if (!empty($profile)){
+            if (empty($profile)){
                 $profile = InstagramProfile::new('vigorjs')->getInstagramAuthUrl();
             }
             $profile = InstagramFeed::for('vigorjs');
