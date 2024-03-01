@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Dymantic\InstagramFeed\Instagram;
 use Dymantic\InstagramFeed\InstagramFeed as InstagramFeed;
 use Illuminate\Support\Facades\Cache;
 use Dymantic\InstagramFeed\Profile as InstagramProfile;
@@ -13,9 +12,6 @@ class IndexController extends Controller
     public function index()
     {
         // Mengecek apakah data $profile sudah di-cache
-        if(!is_dir(__DIR__ . '/../../storage')){
-            Artisan::call("storage::link");
-        }
         if (Cache::has('cached_instagram_feed')) {
             $profile = InstagramFeed::for('vigorjs');
             Cache::put('cached_instagram_feed', $profile, now()->addMinutes(5));
