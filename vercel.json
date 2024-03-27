@@ -39,6 +39,6 @@
     "outputDirectory": "public",
     "crons": [{
         "path": "/refresh-instagram-tokens",
-        "schedule": "0 0 */55 * *"
+        "schedule": "0 0 25 * *"
       }]
 }

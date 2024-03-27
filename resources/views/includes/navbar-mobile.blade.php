@@ -9,7 +9,7 @@
         </div>
         <div class="vs-mobile-menu">
             <ul>
-                <li>
+                {{-- <li>
                     <a href="about.html">About Us</a>
                 </li>
                 <li class="menu-item-has-children">
@@ -26,23 +26,23 @@
                         <li><a href="blog-2.html">Blog Two</a></li>
                         <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
-                </li>
+                </li>  --}}
                 <li class="menu-item-has-children">
                     <a href="#">Pages</a>
-                    <ul class="sub-menu">
+                    {{-- <ul class="sub-menu">
                         <li><a href="shop.html">Shop</a></li>
-                        <li><a href="shop-details.html">Shop Details</a></li>
+                        <li><a href="shop-details.html">Shop Details</a></li> --}}
                         <li><a href="gallery.html">Portfolio</a></li>
-                        <li><a href="gallery-details.html">Portfolio Details</a></li>
+                        {{-- <li><a href="gallery-details.html">Portfolio Details</a></li>
                         <li><a href="appointment.html">Appointment</a></li>
                         <li><a href="price-plan.html">Price Plan</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="error.html">Error Page</a></li>
+                        <li><a href="error.html">Error Page</a></li> --}}
                     </ul>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="contact.html">Contact Us</a>
-                </li>
+                </li> --}}
             </ul>
         </div>
     </div>

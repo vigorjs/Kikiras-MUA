@@ -19,7 +19,7 @@
                                             {{ __('Home') }}
                                         </x-nav-link>
                                     </li>
-                                    <li>
+                                    {{-- <li>
                                         <x-nav-link :href="route('pages.landing-pages.aboutus')" :active="request()->routeIs('pages.landing-pages.aboutus')">
                                             {{ __('About Us') }}
                                         </x-nav-link>
@@ -28,7 +28,7 @@
                                         <x-nav-link :href="route('pages.landing-pages.service')" :active="request()->routeIs('pages.landing-pages.service')">
                                             {{ __('Service') }}
                                         </x-nav-link>
-                                    </li>
+                                    </li> --}}
                                     <li>
                                         <x-nav-link :href="route('pages.landing-pages.gallery')" :active="request()->routeIs('pages.landing-pages.gallery')">
                                             {{ __('Gallery') }}
