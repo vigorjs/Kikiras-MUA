@@ -148,7 +148,7 @@
         </section>
     </div>
 
-    <!--==============================
+   <!--==============================
     Gallery Area
     ==============================-->
     <section class="outer-wrap2 space-extra-bottom mb-10">
@@ -165,30 +165,29 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid px-0 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="row gx-60 gy-gx justify-content-between">
+            <div class="row vs-carousel has-slide-shadow items-center" data-slide-show="5" data-ml-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"> <!-- Add vs-carousel class here -->
                 @foreach ($profile as $profile)
                     <?php
                         $media_url = $profile->url;
                         $caption = $profile->caption;
-                        $image_info = @getimagesize($media_url); // Suppress error if URL is not an image
+                        $image_info = @getimagesize($media_url);
                         $width = $image_info[0] ?? 0; // Get image width
                         $height = $image_info[1] ?? 0; // Get image height
                         if ($height === 0) {
                             continue; // Skip images with zero height
                         }
                         $aspect_ratio = $width / $height;
+                        if ($aspect_ratio > 1.1){
+                            continue;
+                        }
                     ?>
-                    @if ($loop->index < 5)
-                        <div class="{{ ($aspect_ratio <= 1.1 && $aspect_ratio >= 0.9) ? 'col-6 col-md-4 col-lg' : 'col-md-4 col-lg' }}">
-                            <div class="gallery-style1 mega-hover ">
-                                <div class="{{ ($aspect_ratio <= 1.1 && $aspect_ratio >= 0.9) ? 'gallery-img' : 'gallery-img img-rounded' }}"><a href="gallery-details.html"><img loading="lazy" loading="lazy" src="{{url($media_url)}}" alt="{{$caption}}"></a></div>
-                            </div>
+                    <div class="{{ ($aspect_ratio <= 1.1 && $aspect_ratio >= 0.9) ? 'col-6 col-md-4 col-lg' : 'col-md-4 col-lg' }}">
+                        <div class="gallery-style1 mega-hover ">
+                            <div class="{{ ($aspect_ratio <= 1.1 && $aspect_ratio >= 0.9) ? 'gallery-img' : 'gallery-img img-rounded' }}"><a href="{{$profile->permalink}}"><img loading="lazy" src="{{url($media_url)}}" alt="{{$caption}}"></a></div>
                         </div>
-                    @endif
+                    </div>
                 @endforeach
             </div>
-        </div>
     </section>
 
     <!--==============================
