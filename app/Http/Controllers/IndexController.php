@@ -2,31 +2,25 @@
 
 namespace App\Http\Controllers;
 
-use Dymantic\InstagramFeed\InstagramFeed;
 use Illuminate\Support\Facades\Cache;
 use Dymantic\InstagramFeed\Profile as InstagramProfile;
-use Illuminate\Support\Facades\Artisan;
 
 class IndexController extends Controller
 {
     public function index()
     {
-        $profile = InstagramProfile::where('username', 'vigorjs')->first();
+        $profile = InstagramProfile::where('username', 'makeupbykikiraa')->first();
 
-        if (!$profile) {
-            $profile = InstagramProfile::create(['username' => 'vigorjs']);
+        if ($profile == null) {
+            $profile = InstagramProfile::create(['username' => 'makeupbykikiraa']);
+            return redirect($profile->getInstagramAuthUrl());
         }
 
-        if (Cache::has('cached_instagram_feed')) {
-            $feed = Cache::get('cached_instagram_feed');
+        if (Cache::has('cached_instagram_feed_index')) {
+            $feed = Cache::get('cached_instagram_feed_index');
         } else {
-            $feed = $profile->refreshFeed();
-
-            if ($feed === null) {
-                return redirect($profile->getInstagramAuthUrl());
-            }
-
-            Cache::put('cached_instagram_feed', $feed, now()->addDays(14));
+            $feed = $profile?->refreshFeed(10);
+            Cache::put('cached_instagram_feed_index', $feed, now()->addDays(14));
         }
         return view('pages.landing-pages.index', [
             'profile' => $feed
@@ -35,22 +29,18 @@ class IndexController extends Controller
 
     public function gallery()
     {
-        $profile = InstagramProfile::where('username', 'vigorjs')->first();
+        $profile = InstagramProfile::where('username', 'makeupbykikiraa')->first();
 
-        if (!$profile) {
-            $profile = InstagramProfile::create(['username' => 'vigorjs']);
+        if ($profile == null) {
+            $profile = InstagramProfile::create(['username' => 'makeupbykikiraa']);
+            return redirect($profile->getInstagramAuthUrl());
         }
 
-        if (Cache::has('cached_instagram_feed')) {
-            $feed = Cache::get('cached_instagram_feed');
+        if (Cache::has('cached_instagram_feed_gallery')) {
+            $feed = Cache::get('cached_instagram_feed_gallery');
         } else {
-            $feed = $profile->refreshFeed();
-
-            if ($feed === null) {
-                return redirect($profile->getInstagramAuthUrl());
-            }
-
-            Cache::put('cached_instagram_feed', $feed, now()->addDays(14));
+            $feed = $profile?->refreshFeed(30);
+            Cache::put('cached_instagram_feed_gallery', $feed, now()->addDays(14));
         }
         return view('pages.landing-pages.gallery', [
             'profile' => $feed
