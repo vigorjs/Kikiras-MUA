@@ -22,6 +22,7 @@ class Kernel extends ConsoleKernel
     protected function commands(): void
     {
         $this->load(__DIR__.'/Commands');
+        $this->load(\Dymantic\InstagramFeed\Commands\RefreshTokens::class);
 
         require base_path('routes/console.php');
     }
